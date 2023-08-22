@@ -5,7 +5,7 @@ de números deve parar quando o usuário digitar o número -1, e este número -1
 como maior, nem como menor, e nem na contagem da média.
 """
 
-num1 = float(input("Digite um valor real:\n"))
+num1 = float(input("Digite um valor real (-1 termina o programa):\n"))
 div = 0
 
 if num1 != -1:
