@@ -3,9 +3,13 @@
 2 . 1 ou 5! = 1 . 2 . 3 . 4 . 5, equivalente a 120.
 """
 
-num = 5
+contador = 5
 
-fat = 0
+ant = 1
 
-while num != 1:
+while contador > 0:
+    result = contador * ant
+    contador = contador - 1
+    ant = result
 
+print(ant)
