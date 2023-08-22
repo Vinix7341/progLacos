@@ -9,8 +9,7 @@ contador = 1
 ant = 1
 
 while contador <= e:
-    result = b * ant
-    ant = result
+    ant = b * ant
     contador = contador + 1
 
 print(f"A potência de {b} elevado à {e} é igual à {ant}")

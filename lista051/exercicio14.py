@@ -8,8 +8,7 @@ contador = 5
 ant = 1
 
 while contador > 0:
-    result = contador * ant
+    ant = contador * ant
     contador = contador - 1
-    ant = result
 
 print(ant)
