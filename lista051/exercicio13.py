@@ -12,3 +12,4 @@ while contador <= 10:
     if contador == 11 and tabu < 6:
         contador = 1
         tabu = tabu + 1
+        print("\n")
